@@ -1,0 +1,6 @@
+A opção se chama -c porque, originalmente, ela fazia referência à contagem de caracteres.
+ Como os encodings da época usavam 1 byte pra representar cada caractere, contar os bytes
+ era sinônimo de contar caracteres. Porém, com os encodings mais modernos essa lógica não se aplica,
+ uma vez que existem caracteres que são codificados com mais de 1 byte. Por isso, não dizemos mais que -c é usado pra contar caracter
+
+
