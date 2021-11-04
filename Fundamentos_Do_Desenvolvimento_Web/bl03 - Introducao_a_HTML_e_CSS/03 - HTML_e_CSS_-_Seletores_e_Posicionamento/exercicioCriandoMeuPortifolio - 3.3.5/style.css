@@ -1,0 +1,59 @@
+/*
+1.Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+2.A descrição deve ficar ao lado da foto;
+3.Centralize seu nome na página;
+4.Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+5.Adicione margin e padding nos elementos que julgar necessário;
+6.Coloque estilo somente nos itens ímpares da lista das suas habilidades.*/
+
+body {
+    padding: 5%;
+    background-color: #ffdab9;
+    color: #f08080
+    
+    
+}
+
+.meuNome {
+    text-align: center;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-style: italic;
+}
+
+a {
+    color: #f08080;
+}
+
+#sobre {
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 60%;
+}
+
+#foto {
+    width: 250px;    
+    border-radius: 50px;
+    float: left;
+    padding: 10px;
+    background-color: #f08080;
+}
+.img-container {
+    height: 330px;
+    position: relative;
+}
+
+div {
+    border: 2px solid green;
+}
+
+ul li:nth-child(odd) {
+    border: #f08080 solid;
+}
