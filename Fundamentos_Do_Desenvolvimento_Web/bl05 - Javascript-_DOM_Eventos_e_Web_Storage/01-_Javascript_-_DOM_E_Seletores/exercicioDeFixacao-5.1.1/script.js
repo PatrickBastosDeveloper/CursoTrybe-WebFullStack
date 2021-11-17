@@ -1,0 +1,1 @@
+const cabecalho = document.querySelector('#header-container' = background: #07BB9C) 
