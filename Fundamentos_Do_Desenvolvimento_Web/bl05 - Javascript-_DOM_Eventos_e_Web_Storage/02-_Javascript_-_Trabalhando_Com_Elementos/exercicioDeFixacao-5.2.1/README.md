@@ -1,0 +1,1 @@
+Diferença entre nextSibling e nextElementSibling
