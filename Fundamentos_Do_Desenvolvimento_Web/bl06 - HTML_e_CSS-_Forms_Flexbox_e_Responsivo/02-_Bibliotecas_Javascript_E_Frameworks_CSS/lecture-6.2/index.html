@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Submeter Palestra</title>
+  
+   <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css"/> 
+  <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <header class="container text-center">
+      <h1 class="display-1">Submeter Palestra</h1>
+      <p><em>Quer palestrar na nossa conferência? Preencha o formulário!</em></p>
+    </header>
+
+    <form class="container" id="myForm" action="index2.html" method="get" class="">
+       <div class="form-row">
+
+        <!-- USUÁRIO DIGITAR  https://www.w3schools.com/tags/tag_input.asp-->
+        <div class="line-content">
+          <label for="full-name">Name</label>
+          <input id="full-name" name="full-name" type="text" maxlength="20"   placeholder="Texto inicial" class="form-control" />
+        </div>
+
+        <!-- ESCOLHER UMA ÚNICA OPÇÃO -->
+        <div class="">
+          <div class="form-check">
+            <label class="form-check-label" for="talk-type-1">Main Stage</label>
+            <input class="form-check-input" id="talk-type-1"
+                  name="talk-type"
+                  type="radio"
+                  value="main-stage"
+                 />
+          </div>
+           
+          <div class="form-check">
+            <input  class="form-check-input" id="talk-type-2"
+            name="talk-type"
+            type="radio"
+            value="workshop"
+            checked />
+            <label  class="form-check-label" for="talk-type-2">Workshop</label>
+          </div>
+           
+        </div>
+
+        <!-- LISTA DE ITENS -->
+        <div class="" >
+          <label for="t-shirt">T-Shirt Size</label>
+          <select class="form-select" id="t-shirt" name="t-shirt" required>
+            <option  selected value>selecione um valor</option>
+            <option value="xs">Extra Small</option>
+            <option value="s">Small</option>
+            <option value="m">Medium</option>
+            <option value="l" >Large</option>
+          </select>
+        </div>
+
+        <!-- TEXTO COM VARIAS LINHAS -->
+        <div class="">
+          <div class="form-floating">
+            <label for="abstract">Abstract</label>
+            <textarea class="form-control" id="abstract" name="abstract" maxlength="40" cols="35" rows="10"></textarea>
+            <div class="">Describe your talk in 500 words or less</div>
+          </div>
+          
+        </div>
+
+        <!-- USUÁRIO ESCOLHER VÁRIAS OPÇÕES AO MESMO TEMPO -->
+        <div class="">
+          <div class="form-check">
+            <label class="form-check-label" for="available">
+            <input class="form-check-input" id="available"
+                      name="available"
+                      type="checkbox"
+                      value="is-available"/>
+            <span>I’m actually available the date of the talk</span>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="accept">
+            <input class="form-check-input" id="accept"
+                      name="available"
+                      type="checkbox"
+                      value="is-accept"/>
+            <span>I accept</span>
+            </label>
+          </div>
+          
+          </label>
+          
+        </div> 
+
+         <!-- BOTÃO -->
+         <div class="">
+           <button class="btn btn-primary" id="bt" type="submit">Submit</button>
+
+           <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+         </div>
+       </div>
+    </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    </body>
+  </html>  

@@ -1,0 +1,13 @@
+header nav {
+    display: none; 
+}
+.know-the-hotel .grid li.small {
+    flex-basis: 100%; 
+}
+
+.know-the-hotel .grid li.large {
+    flex-basis: 100%; 
+}
+.features .grid {
+    flex-direction: column; 
+}
