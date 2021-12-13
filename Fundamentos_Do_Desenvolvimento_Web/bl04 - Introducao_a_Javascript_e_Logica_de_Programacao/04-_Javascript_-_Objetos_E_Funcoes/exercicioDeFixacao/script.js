@@ -1,3 +1,5 @@
+// Função é um conjunto de instruções que executa uma tarefa ou calcula um valor.
+
 // let car = {
 //     type: 'Fiat',
 //     model: '500',
