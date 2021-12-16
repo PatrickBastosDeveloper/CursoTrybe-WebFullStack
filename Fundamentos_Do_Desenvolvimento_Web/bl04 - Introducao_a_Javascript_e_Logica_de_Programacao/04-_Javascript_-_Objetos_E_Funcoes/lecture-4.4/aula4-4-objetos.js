@@ -1,7 +1,7 @@
 // ARRAY
-let arrNome = [];
+// let arrNome = [];
 // OBJETO
-let arrObj = {};
+// let arrObj = {};
 
 /*
 let firstName = "Murilo";
@@ -23,12 +23,13 @@ let person = {
 };
 
 // LENDO OBJETOS
-console.log("item: ", person.adress.street)
+// console.log("item: ", person.adress.street)
 
-// console.log("item: ", person['firstName'])
-// ou
 // console.log(person.firstName)
+// ou com notação de colchetes:
+// console.log("item: ", person['firstName'])
 
+// leitura de um array de objeto:
 // console.log(`Filme favorito\n ${person.favoritesMovies[1]}`);
 
 
@@ -40,21 +41,24 @@ console.log("item: ", person.adress.street)
 */
 
 // ATUALIZANDO OBJETOS
-person["firstName"] = "Eduardo";
-//console.log(person.firstName)
+
+// person.firstName = "Eduardo";
+// ou
+// person["firstName"] = "Eduardo";
+// console.log(person)
 
 // DELETANDO PROPRIEDADE DE OBJETOS
-delete person.canDrive;
-//console.log(person)
+// delete person.canDrive;
+// console.log(person)
 
 // ITERANDO ITENS DE UM OBJETO
 for (let key in person) {
-  // console.log("key in objeto: ", person[key]);
-
+  console.log("key in objeto: ", person[key]);
+}
   if (key == "firstName") {
     break;
   }
-}
+
 
 // COMPARACAO OF E IN COM ARRAY
 let pessoa = ["Murilo", "Flesch", 35];
