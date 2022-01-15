@@ -1,0 +1,43 @@
+// Quando tentamos acessar uma propriedade que não existe, como nationality , o valor retornado é undefined . 
+
+const person = {
+    name: 'João',
+    lastName: 'Jr',
+    age: 34,
+  };
+  
+  const { nationality } = person;
+
+console.log(nationality); //undefined
+
+
+// É possível atribuir esse valor padrão utilizando default destructuring:
+
+const person = {
+    name: 'João',
+    lastName: 'Jr',
+    age: 34,
+  };
+  
+  const { nationality = 'Brazilian' } = person;
+  console.log(nationality); // Brazilian
+
+// Para fixar:
+
+// Do jeito que está, quando passamos person para a função GetNationality o retorno é João is undefined . Ajuste a função GetNationality para que a chamada GetNationality(person) retorne João is Brazilian .
+
+const getNationality = ({ firstName, nationality = "Brazilian"}) => `${firstName} is ${nationality}`;
+
+const person = {
+  firstName: 'João',
+  lastName: 'Jr II',
+};
+
+const otherPerson = {
+  firstName: 'Ivan',
+  lastName: 'Ivanovich',
+  nationality: 'Russian',
+};
+
+console.log(getNationality(otherPerson)); // Ivan is Russian
+console.log(getNationality(person));

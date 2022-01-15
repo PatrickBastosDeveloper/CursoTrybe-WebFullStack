@@ -1,0 +1,26 @@
+{
+  "name": "sd-xp-b-live-lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetchSimulator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-xp-b-live-lecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-xp-b-live-lecture/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-xp-b-live-lecture#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
