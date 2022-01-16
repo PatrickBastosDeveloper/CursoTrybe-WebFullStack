@@ -39,16 +39,17 @@
 
 // Para resolver, podemos passar o parâmetro de erro para o catch . Dessa forma, caso nosso try não consiga executar o código dentro dele, cairá no catch , que vai pegar esse erro e vai encerrar nosso teste lançando um erro.
 
-test('Não deveria passar!', (done) => {
-  setTimeout(() => {
-    try {
-      expect(10).toBe(5);
-      console.log('Deveria falhar!');
-      done();
-    } catch (error) {
-      done(error); // Alteramos esta linha
-    }
-  }, 500);
-} );
+// test('Não deveria passar!', (done) => {
+//   setTimeout(() => {
+//     try {
+//       expect(10).toBe(5);
+//       console.log('Deveria falhar!');
+//       done();
+//     } catch (error) {
+//       done(error); // Alteramos esta linha
+//     }
+//   }, 500);
+// } );
+
 
 // Agora sim, nosso teste falhou! Isso significa que você conseguiu testar com sucesso a callback.        
