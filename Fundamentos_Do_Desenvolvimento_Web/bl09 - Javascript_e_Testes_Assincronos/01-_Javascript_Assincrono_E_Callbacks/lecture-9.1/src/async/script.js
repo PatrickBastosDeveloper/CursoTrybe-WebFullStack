@@ -58,6 +58,7 @@ function order(productId, onProductReady) {
       break;
     default:
       throw Error('Produto não encontrado');
+      
     }
 
     onProductReady(product);
