@@ -16,6 +16,8 @@
 
 // Gestores de fluxo
 
+// Vamos criar uma função que faz um fetch apenas para um endpoint específico. Entenda endpoint , em se tratando de APIs, como sendo o caminho (url) que retorna alguma informação específica da API. Para isso, vamos usar como endpoint uma url que nos retorna elogios sobre Chuck Norris (elogios, porque ninguém faz piadas com Chuck Norris).
+
 // Existem 2 principais ferramentas que podemos usar para gerir o fluxo assíncrono: o .then() e o .catch() . Vamos começar falando sobre o .then() . Para isso, vamos usar o fetch para fazer uma requisição assíncrona a uma API .
 
 // CONTINUE NO ARQUIVO fetch.js
