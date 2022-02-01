@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Hello World com js</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script>
+    // buscar o elemento root
+    const rootElement = document.getElementById('root');
+
+    // criar o elemento header e adicioná-lo na tela
+    const headerElement = document.createElement('h1');
+    headerElement.innerHTML = "Hello World";
+    rootElement.appendChild(headerElement);
+
+    // criar o elemento parágrafo e adicioná-lo na tela
+    const textElement = document.createElement('p');
+    textElement.innerHTML = "Imperative programming";
+    rootElement.appendChild(textElement);
+  </script>
+</body>
+
+</html>
