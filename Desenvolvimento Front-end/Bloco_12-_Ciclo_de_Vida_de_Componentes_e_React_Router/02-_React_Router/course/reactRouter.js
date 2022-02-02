@@ -47,4 +47,35 @@ class App extends Component {
       </div>
     )
   }
-}   
+}     
+
+// Para poder fazer uso de React Router , é preciso que se instale em uma aplicação React o pacote react-router-dom:
+
+// npm install react-router-dom@v5
+
+// BrowserRouter
+
+// BrowserRouter é o componente que encapsula a sua aplicação, de forma a te possibilitar fazer uso de navegação.
+
+// Route
+
+// Route é o componente fundamental em React Router , que estabelece o mapeamento entre o caminho de URL declarado com o componente.
+
+// <Route path="/about" component={About} /> : lê-se que se o caminho da URL atual do navegador começa com o caminho /about , como declarado na prop path no componente Route , há uma correspondência entre os caminhos da URL e do componente Route , e o componente About será renderizado. Ou seja, se o caminho da URL atual for /home , não há correspondência, logo o componente About não será renderizado. Entretanto, se a URL atual for /about ou /about/me , há correspondência, e o componente About é renderizado. O parâmetro exact entra em ação quando você tem vários caminhos com nomes semelhantes.
+// <Route exact path="/about" component={About} /> : lê-se que, se houver uma correspondência exata entre o caminho da URL atual e o caminho /about declarado em Route , o componente será renderizado.
+
+// OBS : Além dessas duas formas de renderização de componente com Route , você pode fazer uso de elemento children . Ou seja, se você tiver a rota <Route path="/about" component={About} /> , você também poderá fazer da seguinte forma:
+
+<Route path="/about" >
+<About />
+</Route>
+
+// Link
+
+// Link é o componente a ser usado no lugar de elementos com a tag a , de forma a disponibilizar navegação por URL na sua aplicação SPA sem o recarregamento de página que a tag a exige.
+
+<Link to="/about" > About </Link>
+
+// E lembre-se: palavras, imagens, até mesmo outros componentes podem ser componentes filhos do Link ! Ser filho do Link significa que, se você clicar neste filho, irá para onde o Link te direciona!
+
+
