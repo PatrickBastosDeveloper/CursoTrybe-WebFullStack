@@ -8,7 +8,7 @@
 // Desmontagem - quando o componente morre 🧟‍♂️, sumindo do DOM.
 
 // Imagem que demonstra o ciclo de vida de um componente.;
-https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/  
+// https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/  
 
 // O ciclo de vida e os principais métodos funcionam da seguinte maneira:
 // Montagem:
