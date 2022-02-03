@@ -78,4 +78,3 @@ class App extends Component {
 
 // E lembre-se: palavras, imagens, até mesmo outros componentes podem ser componentes filhos do Link ! Ser filho do Link significa que, se você clicar neste filho, irá para onde o Link te direciona!
 
-

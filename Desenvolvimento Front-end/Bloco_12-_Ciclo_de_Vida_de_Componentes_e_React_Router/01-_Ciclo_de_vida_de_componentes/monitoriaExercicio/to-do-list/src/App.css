@@ -1,0 +1,78 @@
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0c0c0;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  height: 80vh;
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+  overflow-y: scroll;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.61);
+}
+
+input {
+  margin: 10px;
+  padding: 20px;
+}
+
+input[type='text'] {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background-color: #ff6464;
+  padding: 10px 20px;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  background-color: #2fc18c;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.61);
+  padding: 10px;
+  width: 50%;
+  margin: 20px;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
+.done {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: black;
+}
+
+.container-task {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: #2FC18C; */
+}
