@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import TodoContext from './TodoContext';
 
-function TodoList ({todos}){
+
+function TodoList (){
+  const { todos } = useContext( TodoContext );
   return (
     <ul>
-     { todos.map( todo => <li>{ todo }</li>)}
+      { todos.map( ( todo, index ) => <li key={ index }>{ todo }</li> ) }
     </ul>
- ) 
+  ); 
 }
 
 export default TodoList;

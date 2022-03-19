@@ -11,6 +11,7 @@ function TodoInput({addTodo}){
     addTodo(newTodo);
     setNewTodo('');
   }
+  
   return (
     <section>
         <label htmlFor='addTodo'>
