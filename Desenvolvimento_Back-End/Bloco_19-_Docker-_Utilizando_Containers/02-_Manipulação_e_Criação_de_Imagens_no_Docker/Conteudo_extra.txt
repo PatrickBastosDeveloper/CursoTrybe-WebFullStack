@@ -1,0 +1,13 @@
+1.Tutorial explicado sobre a inserção de um projeto ReactJS em um Container
+https://medium.com/geekculture/getting-started-with-docker-in-your-react-js-application-the-basics-6e5300cf749d
+
+2.Tutorial falando sobre a criação de imagens a partir de um container rodando
+https://www.sentinelone.com/blog/create-docker-image/
+
+3.Tutorial falando sobre a criação de imagens a partir de um container rodando
+https://thenewstack.io/tutorial-create-a-docker-image-from-a-running-container/
+
+4.Este tutorial traz a construção de um ambiente robusto Full Stack com Docker, React, Node, MySQL e Nginx, fica como um desafio extra a prática dele para entendimento mais completo de como funciona um ecossistema no docker
+https://www.section.io/engineering-education/build-and-dockerize-a-full-stack-react-app-with-nodejs-and-nginx/
+
+

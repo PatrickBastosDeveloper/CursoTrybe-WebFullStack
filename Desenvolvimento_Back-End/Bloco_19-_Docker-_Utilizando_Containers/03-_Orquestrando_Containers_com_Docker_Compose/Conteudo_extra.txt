@@ -1,0 +1,42 @@
+NETWORK
+Conceitos rede Docker | Curso Docker #05
+https://www.youtube.com/watch?v=YkLgYhVNPUY
+
+Docker: Trabalhando com network
+https://medium.com/dockerbr/docker-trabalhando-com-network-64d0bf66263f
+
+Entendendo a rede no Docker
+https://stack.desenvolvedor.expert/appendix/docker/rede.html
+
+VOLUME
+Entendendo armazenamento no Docker
+https://stack.desenvolvedor.expert/appendix/docker/armazenamento.html
+
+Guide to Docker Volumes
+https://www.baeldung.com/ops/docker-volumes
+
+Docker Volumes: How to Create & Get Started
+https://phoenixnap.com/kb/docker-volumes
+
+Docker: Persistência de Dados e Configurações
+https://docker-unleashed.readthedocs.io/aula2.html
+
+COMPOSE
+Docker Compose: O que é? Para que serve? O que come?
+https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come
+
+Docker Compose – Explicado
+https://blog.4linux.com.br/docker-compose-explicado/
+
+Como instalar e utilizar o Docker Compose no Ubuntu 20.04
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt
+
+Docker e Docker Compose um guia para iniciantes
+https://dev.to/ingresse/docker-e-docker-compose-um-guia-para-iniciantes-48k8
+
+Get started with Docker Compose
+https://docs.docker.com/compose/gettingstarted/
+
+Gerenciando múltiplos containers docker com Docker Compose
+https://stack.desenvolvedor.expert/appendix/docker/compose.html
+
