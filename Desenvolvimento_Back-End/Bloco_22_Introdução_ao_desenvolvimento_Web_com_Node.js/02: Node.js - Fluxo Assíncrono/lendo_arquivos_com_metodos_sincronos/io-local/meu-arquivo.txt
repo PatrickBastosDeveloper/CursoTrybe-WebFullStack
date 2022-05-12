@@ -1,0 +1,2 @@
+Testando a flag WX.
+Como esse arquivo existe, ela deverá retornar um erro.
