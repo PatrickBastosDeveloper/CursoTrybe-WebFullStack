@@ -1,0 +1,17 @@
+{
+  "name": "imc",
+  "version": "1.0.0",
+  "description": "Programa que calcula o IMC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Felipe Nunes felipe.nunes@betrybe.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "readline-sync": "^1.4.10"
+  }
+}
