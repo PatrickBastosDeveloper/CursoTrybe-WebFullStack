@@ -3,7 +3,7 @@ const bodyParser = require( 'body-parser' );
 const authMiddleware = require('./auth-middleware');
 
 const app = express();
-app.use( bodyParser.json() );
+app.use( bodyParser.json() );//diz ao body-parser que queremos um middleware que processe corpos de requisições escritos em JSON.
 
 app.get('/open', function (req, res) {
   res.send('open!')
