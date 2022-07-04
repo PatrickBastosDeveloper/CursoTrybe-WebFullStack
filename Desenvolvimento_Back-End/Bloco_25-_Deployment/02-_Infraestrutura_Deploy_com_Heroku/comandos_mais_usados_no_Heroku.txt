@@ -1,0 +1,51 @@
+Rodar um projeto localmente com CLI do Heroku:
+heroku local web
+
+Criar e nomear o repositório de forma específica:
+heroku create nome-específico
+
+Listando os remotes:
+git remote -v
+
+Renomear remote do heroku:
+git remote rename heroku heroku-origin
+
+Abre a aplicação no navegador:
+heroku open
+
+Para excluir um heroku do remote:
+git remote rm nome-do-remote
+
+Vincular um app existente a um novo remote:
+heroku git:remote -a meu-deploy-de-testes-29302 --remote heroku-test
+
+Para fazer deploy :
+git push nome-do-remote master
+
+lista log geral com erros e fluxo de utilização da aplicação:
+heroku logs --tail
+
+Mostra quais aplicações existem no dashboard:
+heroku apps
+
+Criar um projeto adicionando um buildpack (exemplo com React):
+heroku create nome-do-app --buildpack mars/create-react-app
+
+Verifica os status geral de um remote específico
+heroku logs -t --app nome-do-remote
+
+Deleta uma aplicação do heroku:
+heroku apps:destroy nome-do-app
+
+Mostra o que está configurado nas variáveis de ambiente do app:
+heroku config
+
+Para setar no cli nova configuração de variável de ambiente:
+heroku config:set EXEMPLO_ENV=homologacao --remote nome-do-remote
+
+Informa ao heroku que vai utilizar docker:
+heroku stack -a nome-do-remote
+
+Selecionar a stack:
+heroku stack:set container -a nome-do-remote
+
