@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  db:
+    container_name: hello_msc
+    image: mysql
+    command: [ "--default-authentication-plugin=mysql_native_password" ]
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: password
