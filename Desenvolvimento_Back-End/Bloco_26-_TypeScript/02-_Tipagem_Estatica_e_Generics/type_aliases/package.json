@@ -1,20 +1,21 @@
 {
-  "name": "exercises",
+  "name": "tipos_de_colecao",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.3",
+    "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.0.1",
-    "@types/readline-sync": "^1.4.4"
+    "typescript": "^4.7.4"
   },
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "ts-node": "^10.8.2"
   }
 }
